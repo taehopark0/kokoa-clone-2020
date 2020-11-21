@@ -1,3 +1,3 @@
 # Kokoa Clone 2020 Update
 
-CSS got evolved!
+HTML and CSS are so much fun!
