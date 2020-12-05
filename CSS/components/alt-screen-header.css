@@ -22,10 +22,14 @@
   text-align: center;
 }
 
-.alt-header__column span:last-child {
+.alt-header__column:last-child {
   margin-left: 20px;
   display: flex;
   justify-content: flex-end;
+}
+
+.alt-header__column span:first-child {
+  margin-right: 10px;
 }
 
 .alt-header__column {

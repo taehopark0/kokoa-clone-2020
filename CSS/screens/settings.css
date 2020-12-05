@@ -1,6 +1,6 @@
 .settings__setting {
   padding: 20px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -15,4 +15,20 @@
 
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+
+.main-screen {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings__setting-column:first-child {
+  display: flex;
+}
+
+.settings__setting-column:first-child .badge {
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 10px;
+  margin-left: 10px;
 }
